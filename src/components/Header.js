@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 function Header() {
-    return (
-        <h3>
-            Expense Tracker
-        </h3>
-    )
+  return (
+    <div className="header">
+      <h3>Expense Tracker</h3>
+    </div>
+  );
 }
 
-export default Header
+export default Header;
